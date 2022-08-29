@@ -1,0 +1,58 @@
+.sectionImage{
+    width: 440px;
+    height: 500px;
+    margin-bottom: 130px;
+}
+
+.sectionImageSecond{
+    width: 440px;
+    height: 500px;
+    margin-bottom: 130px;
+}
+
+
+.home__about{
+    padding-top: 160px;
+}
+
+.About__section{
+    display: flex;
+    gap: 40px;
+    padding-top: 100px;
+}
+
+.section__text{
+    font-weight: 700;
+    line-height: 40px;
+    margin: 50px;
+}
+
+.sectionImage:hover{
+    transition: all 0.7s ease;
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    cursor: pointer;
+}
+
+.sectionImageSecond:hover{
+    transition: all 0.7s ease;
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    cursor: pointer;
+}
+
+@media (max-width: 1400px){
+    .About__section{
+        flex-direction: column;
+    }
+}
+@media (max-width: 600px){
+.sectionImageSecond{
+    width: auto;
+    height: auto;
+}
+.sectionImage{
+    width: auto;
+    height: auto;
+}
+}

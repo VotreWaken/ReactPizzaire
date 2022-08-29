@@ -1,0 +1,101 @@
+
+
+.header{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+}
+
+.logo img{
+    width: calc(100%- 60%);
+    object-fit: contain;
+}
+
+.menu a{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #FFF;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    color: #FFCB74;
+}
+
+.active__menu{
+    color: #FFCB74 !important;
+}
+
+.cart__icon i, .mobile__menu i{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.cart__icon {
+    position: relative;
+}
+
+.shopping__basket-item{
+    position: absolute;
+    top: 20px;
+    right: -10px;
+    background: #FFCB74;
+    color: #2F2F2F;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: .8rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile__menu{
+    font-weight: 600;
+    display: none;
+}
+
+
+
+@media (max-width: 992px){
+
+
+
+    .navigation{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #2F2F2F;
+        z-index: 99;
+        display: none;
+    }
+
+    .menu{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 250px;
+        height: 100%;
+        background:#2F2F2F;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+        line-height: 20px;
+    }
+
+    .menu a{
+        font-size: 1.5rem;
+    }
+    
+    .mobile__menu{
+        display: block;
+    }
+
+    .show__menu{
+        display: block;
+    }
+}

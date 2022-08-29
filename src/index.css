@@ -1,0 +1,66 @@
+/* Google fonts */
+
+@import url(https://fonts.googleapis.com/css?family=regular,600,700);
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,500);
+
+/* Reset default style */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #FFFFFF;
+}
+
+/* Basic style */
+
+body {
+ font-family: "Roboto" sans-serif;
+ background: #fcfcfc;
+ background-color: black;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color:#FFF;
+  transition: 0.3s;
+}
+
+h1{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 68px;
+  letter-spacing: 0.13em;
+  color: #FFFFFF;
+}
+h2{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 46px;
+}
+
+section{
+  padding: 60px 0px;
+}
+
+.list-group-item{
+  background-color: #aa8c57;
+}
+
+button{
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+button:hover{
+  color:#FFF;
+  transition: 0.3s;
+}
